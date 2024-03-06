@@ -1,12 +1,12 @@
 repo_name: DotEspartoORGForPersonal/flask
-report_id: 3f4212991a749c997c2e0a04813b64ec
+report_id: 7b51a3f40a806094fec1a3eb8b36cd1d
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-06T14:01:27+00:00'
+timestamp: '2024-03-06T17:45:03+00:00'
 requested_by: davidism
 provider: github
 branch: main
-detected_tools_count: 25
+detected_tools_count: 23
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -18,19 +18,6 @@ tools:
   image_url: https://img.stackshare.io/service/6727/css.png
   detection_source_url: https://github.com/DotEspartoORGForPersonal/flask
   detection_source: Repo Metadata
-- name: JavaScript
-  description: Lightweight, interpreted, object-oriented language with first-class
-    functions
-  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source_url: https://github.com/DotEspartoORGForPersonal/flask/blob/main/requirements-skip/tests-dev.txt
-  detection_source: requirements-skip/tests-dev.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-11-09 16:46:01.000000000 Z
 - name: Jinja
   description: Full featured template engine for Python
   website_url: https://palletsprojects.com/p/jinja/
@@ -167,18 +154,6 @@ tools:
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2020-05-23 21:03:11.000000000 Z
-- name: npm
-  description: The package manager for JavaScript.
-  website_url: https://www.npmjs.com/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source_url: https://github.com/DotEspartoORGForPersonal/flask/blob/main/requirements-skip/tests-dev.txt
-  detection_source: requirements-skip/tests-dev.txt
-  last_updated_by: David Lord
-  last_updated_on: 2023-11-09 16:46:01.000000000 Z
 - name: pre-commit
   description: A slightly improved pre-commit hook for git
   website_url: http://jish.github.io/pre-commit/
